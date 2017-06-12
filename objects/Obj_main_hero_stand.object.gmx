@@ -39,11 +39,13 @@ vspeed = 0;
 
 // Moving right
 if (rkey) {
+image_xscale = 1
 hspeed = 6;
 }
 
 // Moving left
 if (lkey) {
+image_xscale = -1
 hspeed = -6;
 }
 
